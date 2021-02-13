@@ -14,7 +14,6 @@
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended: false}));
 
-
     let lookup = {}
 
     const hostname = '0.0.0.0';
@@ -55,7 +54,7 @@
         Object.keys(server.torrents).forEach(hash => {
             lookup[server.torrents[hash].infoHash] = server.torrents[hash].peers.length
             console.log("peers: " + server.torrents[hash].peers.length)
-        });
+        })
     })
 
     server.on('complete', function (addr) {})
@@ -63,8 +62,8 @@
 
     app.get('/peers', function(req, res) {
         res.send(lookup);
-    });
+    })
 
-    app.listen(process.env.PORT,function(){
-        console.log('Express server port: ' + this.address().port); //Listening on port 8888
-    });
+    app.listen(process.env.PORT, () => {
+        console.log('Express server port: ' + this.address().port); //Listening on port #
+    })
