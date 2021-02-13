@@ -10,4 +10,4 @@ A heroku-ready WebRTC signaling server for use with P2P applications.
 
 # Demo
 
-(ws://ws.peer.ooo)[ws://ws.peer.ooo]
+[ws://ws.peer.ooo](ws://ws.peer.ooo)
