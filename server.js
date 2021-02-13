@@ -65,4 +65,6 @@
         res.send(lookup);
     });
 
-    app.listen(process.env.PORT);
+    app.listen(process.env.PORT,function(){
+        console.log('Listening on port ' + listener.address().port); //Listening on port 8888
+    });
