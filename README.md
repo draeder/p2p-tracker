@@ -11,4 +11,4 @@ A heroku-ready bittorrent tracker for use with P2P applications.
 
 # Demo
 
-ws://ws.peer.ooo
+wss://ws.peer.ooo
