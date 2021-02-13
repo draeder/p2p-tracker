@@ -16,7 +16,7 @@
 
     server.on('error', function (err) {
         // fatal server error!
-        console.log(err.message)
+        //console.log(err.message)
     })
 
     server.on('warning', function (err) {
