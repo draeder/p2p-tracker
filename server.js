@@ -64,6 +64,6 @@
         res.send(lookup);
     })
 
-    app.listen(process.env.PORT, () => {
+    app.listen(process.env.PORT,function(){
         console.log('Express server port: ' + this.address().port); //Listening on port #
     })
