@@ -1,4 +1,4 @@
-# p2p-signal-server
+# p2p-tracker
 
 A heroku-ready WebRTC signaling server for use with P2P applications.
 
