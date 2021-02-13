@@ -1,0 +1,7 @@
+{
+  "name": "p2p-signal-server",
+  "description": "A heroku-ready WebRTC signaling server for use with P2P applications.",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://github.com/draeder/p2p-signal-server",
+  "keywords": ["node", "bittorrent-tracker", "p2p"]
+}
