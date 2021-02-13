@@ -18,7 +18,7 @@
     let lookup = {}
 
     const hostname = '0.0.0.0';
-    const port = 3000 || process.env.PORT;
+    const port = process.env.PORT;
 
 
     var Server = require('bittorrent-tracker').Server
@@ -42,8 +42,8 @@
 
     server.on('listening', function () {
         // fired when all requested servers are listening
-        console.log('listening on http port:' + server.http.address().port)
-        console.log('listening on ws port:' + server.ws.address().port)
+        console.log('Signal server http port:' + server.http.address().port)
+        console.log('Signal server ws port:' + server.ws.address().port)
     })
 
     // start tracker server listening! Use 0 to listen on a random free port.
@@ -66,5 +66,5 @@
     });
 
     app.listen(process.env.PORT,function(){
-        console.log('Listening on port ' + listener.address().port); //Listening on port 8888
+        console.log('Express server port: ' + this.address().port); //Listening on port 8888
     });
