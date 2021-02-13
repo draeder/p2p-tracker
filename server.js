@@ -17,7 +17,7 @@
     let lookup = {}
 
     const hostname = '0.0.0.0';
-    const port = 31415;
+    const port = process.env.PORT;
 
 
     var Server = require('bittorrent-tracker').Server
@@ -64,6 +64,6 @@
         res.send(lookup);
     })
 
-    app.listen(process.env.PORT,function(){
+    app.listen(3001,function(){
         console.log('Express server port: ' + this.address().port); //Listening on port #
     })
