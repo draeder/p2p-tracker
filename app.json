@@ -2,6 +2,6 @@
   "name": "p2p-signal-server",
   "description": "A heroku-ready bittorrent tracker for use with P2P applications.",
   "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://github.com/draeder/p2p-signal-server",
+  "logo": "https://github.com/draeder/p2p-tracker",
   "keywords": ["node", "bittorrent-tracker", "p2p"]
 }
