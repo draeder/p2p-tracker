@@ -65,6 +65,6 @@
         res.send(lookup);
     });
 
-    app.listen(3001 || process.env.PORT,function(){
+    app.listen(process.env.PORT + 1,function(){
         console.log('Express server port: ' + this.address().port); //Listening on port 8888
     });
