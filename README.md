@@ -7,6 +7,7 @@ A heroku-ready bittorrent tracker for use with P2P applications.
 # Usage
 
 - Deploy to heroku using the button above
+- Or run locally by cloning this repo, installing the dependencies, then ` npm start `
 
 # Demo
 
