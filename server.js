@@ -18,7 +18,7 @@
     let lookup = {}
 
     const hostname = '0.0.0.0';
-    const port = process.env.PORT || 3000;
+    const port = 3000 || process.env.PORT;
 
 
     var Server = require('bittorrent-tracker').Server
@@ -65,4 +65,4 @@
         res.send(lookup);
     });
 
-    app.listen(80);
+    app.listen(process.env.PORT);
