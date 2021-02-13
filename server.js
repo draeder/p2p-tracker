@@ -65,4 +65,4 @@
         res.send(lookup);
     });
 
-    app.listen(process.env.PORT);
+    app.listen(80);
