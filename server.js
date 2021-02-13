@@ -17,7 +17,7 @@
 
     let lookup = {}
 
-    const hostname = '0.0.0.0';
+    const hostname = 'p2p-signal-server.herokuapp.com';
     const port = process.env.PORT;
 
 
