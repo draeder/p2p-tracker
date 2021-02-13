@@ -2,7 +2,7 @@
 
 A heroku-ready bittorrent tracker for use with P2P applications.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/draeder/p2p-tracker)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/draeder/p2p-tracker/tree/master)
 
 # Usage
 
