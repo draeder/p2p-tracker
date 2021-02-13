@@ -4,7 +4,7 @@
     var app = express();
 
     //Allow all requests from all domains & localhost
-    app.all('/*', function(req, res, next) {
+    /*app.all('/*', function(req, res, next) {
         res.header("Access-Control-Allow-Origin", "*");
         res.header("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, Accept");
         res.header("Access-Control-Allow-Methods", "POST, GET");
@@ -12,7 +12,7 @@
     });
 
     app.use(bodyParser.json());
-    app.use(bodyParser.urlencoded({extended: false}));
+    app.use(bodyParser.urlencoded({extended: false}));*/
 
     let lookup = {}
 
@@ -60,10 +60,10 @@
     server.on('complete', function (addr) {})
     server.on('stop', function (addr) {})
 
-    app.get('/peers', function(req, res) {
+    /*app.get('/peers', function(req, res) {
         res.send(lookup);
     })
 
     app.listen(3001,function(){
         console.log('Express server port: ' + this.address().port); //Listening on port #
-    })
+    })*/
