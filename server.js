@@ -17,7 +17,7 @@
     let lookup = {}
 
     const hostname = '0.0.0.0';
-    const port = process.env.PORT;
+    const port = 31415;
 
 
     var Server = require('bittorrent-tracker').Server
