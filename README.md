@@ -12,6 +12,8 @@ A heroku-ready webtorrent tracker for use with P2P applications.
 
 # Demo
 
+Use any of the following tracker server links in your application:
+
 - [https://ws.peer.ooo](https://ws.peer.ooo)
 - wss://ws.peer.ooo
 - ws://ws.peer.ooo
