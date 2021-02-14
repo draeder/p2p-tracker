@@ -12,6 +12,6 @@ A heroku-ready webtorrent tracker for use with P2P applications.
 
 # Demo
 
-[https://ws.peer.ooo](https://ws.peer.ooo)
-wss://ws.peer.ooo
-ws://ws.peer.ooo
+- [https://ws.peer.ooo](https://ws.peer.ooo)
+- wss://ws.peer.ooo
+- ws://ws.peer.ooo
