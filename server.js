@@ -21,7 +21,7 @@
 
     server.on('warning', function (err) {
         // client sent bad data. probably not a problem, just a buggy client.
-        console.log(err.message)
+        //console.log(err.message)
     })
 
     server.on('listening', function () {
@@ -38,7 +38,7 @@
         console.log('got start message from ' + addr)
         Object.keys(server.torrents).forEach(hash => {
             lookup[server.torrents[hash].infoHash] = server.torrents[hash].peers.length
-            console.log("peers: " + server.torrents[hash].peers.length)
+            //console.log("peers: " + server.torrents[hash].peers.length)
         })
     })
 
