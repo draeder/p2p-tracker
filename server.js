@@ -35,7 +35,7 @@
 
     // listen for individual tracker messages from peers:
     server.on('start', function (addr) {
-        //console.log('got start message from ' + addr)
+        console.log('got start message from ' + addr)
         Object.keys(server.torrents).forEach(hash => {
             lookup[server.torrents[hash].infoHash] = server.torrents[hash].peers.length
             //console.log("peers: " + server.torrents[hash].peers.length)
