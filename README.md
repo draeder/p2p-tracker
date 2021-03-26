@@ -10,10 +10,3 @@ A heroku-ready webtorrent tracker for use with P2P applications.
 - Or run locally by cloning this repo, then ` npm start `
   - Edit server.js to specify a static port. By default, a random port is used.
 
-# Demo
-
-Use any of the following tracker server links in your application:
-
-- [https://ws.peer.ooo](https://ws.peer.ooo) [use within node server only]
-- wss://ws.peer.ooo
-- ws://ws.peer.ooo
