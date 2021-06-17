@@ -1,3 +1,5 @@
+    console.log(process.env.HEROKU_APP_NAME)
+    
     // Create a web sockets signaling server
     let lookup = {}
 
