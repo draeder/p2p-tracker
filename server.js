@@ -1,10 +1,8 @@
-    console.log(process.env)
-    
     // Create a web sockets signaling server
     let lookup = {}
 
     const hostname = '0.0.0.0';
-    const port = process.env.PORT;
+    const port = process.env.PORT || 3001;
 
 
     var Server = require('bittorrent-tracker').Server
@@ -32,9 +30,6 @@
         console.log('Signal server ws port:' + server.ws.address().port)
     })
 
-    // start tracker server listening! Use 0 to listen on a random free port.
-    server.listen(port, hostname, 'listening')
-
     // listen for individual tracker messages from peers:
     server.on('start', function (addr) {
         console.log('got start message from ' + addr)
@@ -46,3 +41,6 @@
 
     server.on('complete', function (addr) {})
     server.on('stop', function (addr) {})
+
+    // start tracker server listening! Use 0 to listen on a random free port.
+    server.listen(port, hostname, 'listening')
