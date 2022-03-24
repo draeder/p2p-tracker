@@ -7,6 +7,6 @@ A heroku-ready webtorrent tracker for use with P2P applications.
 # Usage
 
 - Deploy to heroku using the button above
-- Or run locally by cloning this repo, then ` npm start `
+- Or run locally by cloning this repo, then `npm install` => `npm start `
   - Edit server.js to specify a static port. By default, a random port is used.
 
