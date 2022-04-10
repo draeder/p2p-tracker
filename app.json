@@ -6,10 +6,8 @@
   "keywords": ["node", "bittorrent-tracker", "p2p"],
   "env": {
     "HEROKU_APP_NAME": {
-      "required": true
-    },
-    "HEROKU_PARENT_APP_NAME": {
-      "required": true
+      "description": "Name of this Heroku App",
+      "value": "my-awesome-P2P-tracker"
     }
   },
   "scripts": {
