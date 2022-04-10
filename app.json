@@ -4,5 +4,8 @@
   "repository": "https://github.com/draeder/p2p-tracker",
   "logo": "https://p2p-tracker.herokuapp.com/node.png",
   "keywords": ["node", "bittorrent-tracker", "p2p"],
-  "HEROKU_APP_NAME": "mytestappname1345"
+  "HEROKU_APP_NAME": "mytestappname1345",
+  "scripts": {
+    "postdeploy": "bin/bootstrap"
+  }
 }
